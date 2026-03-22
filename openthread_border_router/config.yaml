@@ -7,7 +7,7 @@ url: https://github.com/craigrallen/otbr-patched
 arch:
   - aarch64
   - amd64
-image: ghcr.io/craigrallen/otbr-patched:2.16.5-patched3-aarch64
+image: ghcr.io/craigrallen/otbr-patched:latest
 homeassistant: 2025.7.0
 gpio: true
 hassio_api: true
