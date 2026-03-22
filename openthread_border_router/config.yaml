@@ -1,5 +1,5 @@
 ---
-version: "2.16.5-patched1"
+version: "2.16.5-patched2"
 slug: otbr_patched
 name: OpenThread Border Router (Patched)
 description: OpenThread Border Router add-on
@@ -8,6 +8,7 @@ url: https://github.com/craigrallen/ha-addons-patched
 arch:
   - aarch64
   - amd64
+build: true
 homeassistant: 2025.7.0
 gpio: true
 hassio_api: true
