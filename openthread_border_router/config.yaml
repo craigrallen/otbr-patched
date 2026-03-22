@@ -2,12 +2,12 @@
 version: "2.16.5-patched3"
 slug: otbr_patched
 name: OpenThread Border Router (Patched)
-description: OpenThread Border Router add-on (local build with migration fix)
+description: OpenThread Border Router add-on (pre-built with migration fix)
 url: https://github.com/craigrallen/otbr-patched
 arch:
   - aarch64
   - amd64
-build: true
+image: ghcr.io/craigrallen/otbr-patched:{arch}-{version}
 homeassistant: 2025.7.0
 gpio: true
 hassio_api: true
